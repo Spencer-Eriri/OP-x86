@@ -18,6 +18,7 @@ rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/applications/luci-app-argon-config
 
 #将上述删除的程序替换为 jerrykuku 版（main 分支）
+#本地非洁净环境可能有上次的存留导致非空报错
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/downloads/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/downloads/luci-app-argon-config
 
